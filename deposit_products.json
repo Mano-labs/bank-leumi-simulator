@@ -1,0 +1,37 @@
+{
+    "5173/7": {
+        "name": "Weekly Deposit",
+        "interest_formula": "P - 1.55",
+        "tiers": [
+            { "amount_min": 0, "amount_max": 99999, "bonus": 0.0 },
+            { "amount_min": 100000, "amount_max": 249999, "bonus": 0.05 },
+            { "amount_min": 250000, "amount_max": null, "bonus": 0.10 }
+        ],
+        "valid_terms": [7, 14, 21, 28, 182],
+        "compound_interest": false,
+        "supports_accrued_interest": false,
+        "tax_rate": 15.0
+    },
+    "104/2": {
+        "name": "Monthly Deposit",
+        "interest_formula": "P - 1.35",
+        "tiers": null,
+        "valid_terms": [30, 60, 90, 120, 150, 180, 182],
+        "compound_interest": false,
+        "supports_accrued_interest": true,
+        "tax_rate": 15.0
+    },
+    "5071/5": {
+        "name": "Daily Deposit",
+        "interest_formula": "P - 1.77",
+        "tiers": [
+            { "amount_min": 0, "amount_max": 99999, "bonus": 0.0 },
+            { "amount_min": 100000, "amount_max": 249999, "bonus": 0.05 },
+            { "amount_min": 250000, "amount_max": null, "bonus": 0.10 }
+        ],
+        "valid_terms": [2, 3, 5, 10, 20, 30, 60, 90],
+        "compound_interest": true,
+        "supports_accrued_interest": false,
+        "tax_rate": 15.0
+    }
+}
